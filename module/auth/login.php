@@ -8,7 +8,7 @@ require_once __DIR__ . '/../../class/form.php';
 
 $pengguna = [
     "rina@gmail.com" => ["nama" => "Rina Wulandari", "password" => "rina567", "role" => "User"],
-    "agus@gmail.com" => ["nama" => "Agus Pranoto",   "password" => "agus567", "role" => "User"],
+    "lafid@gmail.com" => ["nama" => "laLafid",   "password" => "lafi567", "role" => "User"],
     "cell@gmail.com" => ["nama" => "Celine Marlina", "password" => "cell567", "role" => "Admin"]
 ];
 
@@ -48,7 +48,7 @@ if ($_POST) {
 
                     <div class="mt-3 p-3 bg-light rounded small">
                         <strong>Demo:</strong><br>
-                        agus@gmail.com / agus567<br>
+                        lafid@gmail.com / lafi567<br>
                         cell@gmail.com / cell567 (Admin)
                     </div>
                 </div>
