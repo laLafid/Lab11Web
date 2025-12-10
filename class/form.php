@@ -2,7 +2,7 @@
 /** 
  * Nama Class: Form 
  * Deskripsi: Class untuk membuat form inputan dinamis (Text, Textarea, Select, Radio, Checkbox, File) 
- */
+ */ 
 class Form {
     private $fields = array();
     private $action;

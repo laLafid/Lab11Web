@@ -44,7 +44,7 @@ if ($_POST) {
 <div class="container my-5">
     <h2>Ubah Data Barang</h2>
     <?php
-    $form = new Form("", "Update Barang");
+    $form = new Form("", "Update Barang"); // aiueo
     $form->addField("id", "", "hidden", $id);
     $form->addField("nama", "Nama Barang", "text", $data['nama']);
     $form->addField("kategori", "Kategori", "select", $data['kategori'], [

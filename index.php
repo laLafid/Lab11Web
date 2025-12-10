@@ -4,7 +4,7 @@ session_start();
 include "config.php";
 include "class/db.php";
 include "class/form.php";
-
+ 
 $db = new Database(); 
 
 // ini biarin

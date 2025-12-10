@@ -34,7 +34,7 @@ if ($_POST) {
 <div class="container my-5">
     <h2>Tambah Barang Baru</h2>
     <?php
-    $form = new Form("", "Simpan Barang");
+    $form = new Form("", "Simpan Barang"); // ganti baru e
     $form->addField("nama", "Nama Barang", "text");
     $form->addField("kategori", "Kategori", "select", '', [
         "Komputer" => "Komputer",
@@ -44,7 +44,7 @@ if ($_POST) {
     $form->addField("harga_jual", "Harga Jual", "number");
     $form->addField("harga_beli", "Harga Beli", "number");
     $form->addField("stok", "Stok", "number");
-    $form->addField("file_gambar", "Gambar Barang", "file");  // Support file!
+    $form->addField("file_gambar", "Gambar Barang", "file");  
     $form->displayForm();
     ?>
     <a href="<?= BASE_URL ?>artikel/home" class="btn btn-secondary mt-3">Kembali</a>

@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../../class/db.php';
+require_once __DIR__ . '/../../class/db.php'; // path ke class/db.php
 if (!isset($_SESSION['login'])) {
     header("Location: " . BASE_URL . "auth/login");
     exit;
@@ -7,7 +7,7 @@ if (!isset($_SESSION['login'])) {
 $db = new Database();
 $barang = $db->getAll('data_barang');
 ?>
-
+ 
 <div class="container my-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1 class="h3">Data Barang</h1>
@@ -29,7 +29,7 @@ $barang = $db->getAll('data_barang');
                     <th width="150">Aksi</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody> 
                 <?php if ($barang && $barang->num_rows > 0): ?>
                     <?php while ($b = $barang->fetch_assoc()): ?>
                         <tr>

@@ -1,5 +1,5 @@
 <?php 
-require_once __DIR__ . '/../../class/db.php';
+require_once __DIR__ . '/../../class/db.php'; // sesuaikan pathnya
 if (!isset($_SESSION['login'])) {
     header('Location: ' . BASE_URL . 'index.php');
     exit;

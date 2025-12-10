@@ -1,13 +1,12 @@
 <?php
 define('ROOT', dirname(__DIR__) . '/');
 if (!file_exists(ROOT . 'config.php')) {
-    die('File config.php tidak ditemukan di: ' . ROOT . 'config.php');
-}
+    die('File config.php tidak ditemukan di: ' . ROOT . 'config.php'); } // ngambek kalo ga gini 
 require_once ROOT . 'config.php';
 define('GAMBAR', ROOT . 'gambar/');
 define('BASE_URL', 'http://localhost/webpro11/');  // ganti sesuai folder
 
-
+ 
 class Database {
     protected $host;
     protected $user;

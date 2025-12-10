@@ -40,7 +40,7 @@ if ($_POST) {
                     <?php endif; ?>
 
                     <?php
-                    $form = new Form("", "Login Sekarang");
+                    $form = new Form("", "Login Sekarang"); // ini
                     $form->addField("username", "Email", "email");
                     $form->addField("password", "Password", "password");
                     $form->displayForm();

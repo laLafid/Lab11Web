@@ -4,7 +4,7 @@ if (!isset($_SESSION['login'])) {
     header('Location: ' . BASE_URL . 'index.php');
     exit;
 }
-?>
+?> 
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-lg-10">
