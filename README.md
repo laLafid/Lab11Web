@@ -25,7 +25,7 @@ Cek juga repo lain nya:
     
     liat ``config.php``
 
-    - jangan lupa ya file dan folder nya udah berubah lagi (ketentuan dari sana):
+    - jangan lupa ya path file dan folder nya udah berubah lagi..
 
     ![alt text](gambar/file.png)
 
@@ -39,6 +39,7 @@ Cek juga repo lain nya:
         - ``gajah.php`` jadi ``db.php``
         - ``koneksi.php`` jadi ``config.php``
         - ``form.php`` di update 🥲
+        - beberapa update kecil ke semua modul yang memakai ``form.php``
 
     - nih contoh penggunaan form baru ada di ``ubah.php``
     ```php
