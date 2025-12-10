@@ -23,7 +23,7 @@ Cek juga repo lain nya:
 
     ![alt text](gambar/2.0.png)
     
-    liat ``koneksi.php``
+    liat ``config.php``
 
     - jangan lupa ya file dan folder nya udah berubah lagi (ketentuan dari sana):
 
